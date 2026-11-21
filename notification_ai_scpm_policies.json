@@ -1,0 +1,150 @@
+{
+  "policy_version": 2026112101,
+  "summary_policies": [5, 3, 1, 2, 1, 50],
+  "summary_exclude_keywords": "부고, 訃告, 사망, 별세, vefat, başınız sağ olsun, taziye, cenaze",
+  "summary_allow_list": [
+    "com.whatsapp",
+    "com.facebook.orca",
+    "com.google.android.apps.messaging",
+    "com.whatsapp.w4b",
+    "com.snapchat.android",
+    "org.telegram.messenger",
+    "com.samsung.android.messaging",
+    "com.zing.zalo",
+    "com.viber.voip",
+    "com.imo.android.imoim",
+    "com.discord",
+    "ru.oneme.app",
+    "com.kakao.talk",
+    "com.tencent.mm",
+    "org.thoughtcrime.securesms",
+    "com.imo.android.imoimhd",
+    "com.beint.zangi",
+    "org.telegram.plus",
+    "com.imo.android.imoimbeta",
+    "com.aka.messenger",
+    "com.imo.android.imoimlite",
+    "com.michatapp.im",
+    "org.thunderdog.challegram",
+    "com.loudtalks",
+    "com.facebook.talk",
+    "ir.ilmili.telegraph",
+    "com.vk.im",
+    "com.turkcell.bip",
+    "com.groupme.android",
+    "com.azarlive.android",
+    "com.microsoft.teams",
+    "com.ss.android.ugc.trill",
+    "com.facebook.katana",
+    "com.instagram.android",
+    "com.tencent.mobileqq",
+    "com.samsung.vvm",
+    "com.sds.teams",
+    "com.google.android.apps.dynamite",
+    "com.s23u.notihighlights.tr",
+    "com.Slack"
+  ],
+  "except_scenarios": [],
+  "turkish": {
+    "include": [
+      {
+        "keywords0": "talimat, talep, rapor, hazırlık, toplantı, toplantı daveti, toplantı başlıyor, son tarih, teslim tarihi, onay, inceleme, değerlendirme, acil, sunum, taslak, güncelleme, görev, proje, revize, dönüş bekleniyor, Instructions, requests, reports, preparation, schedules, drafting, deadlines, processing, issues, errors, approvals, meeting invitations, meeting starts, meeting attendance, reviews, submissions, final versions, progress updates, replies, meetings"
+      },
+      {
+        "keywords0": "sıra, sıranız, sıra numarası, muayene sırası, randevu sırası, çağrılıyor, içeri girin, giriş yapabilirsiniz, gişe, danışma, bekleme listesi, masa hazır, siparişiniz hazır, teslim almaya hazır, numaranız, Entry, waiting, my turn, medical appointment turn, calling, preparation, come in, counter, information desk, store, reservation number, order waiting, check-in"
+      },
+      {
+        "keywords0": "gecikmiş, vadesi geçmiş, son ödeme, son ödeme tarihi, ödenmemiş, yetersiz bakiye, otomatik ödeme başarısız, gecikme faizi, gecikme uyarısı, borç uyarısı, hat kesintisi, kısıtlama, ödeme hatırlatma, ödeme başarısız, fatura son ödeme, ekstre son ödeme, asgari ödeme, Overdue, payment deadline, insufficient automatic transfer, late payment, suspension, restriction, payment due date, final deadline, grace period expiration, payment demand, payment failure"
+      },
+      {
+        "keywords0": "dağıtıma çıktı, teslimat, teslim edildi, kargo, kargonuz, paketiniz, kurye, kapıya bırakıldı, teslim edilemedi, adresinizde bulunamadı, şubede bekliyor, teslimat ertelendi, kargo takip, gönderi, siparişiniz yola çıktı, teslimat kodu, kolay gelsin, yurtiçi kargo, aras kargo, mng kargo, ptt kargo, sürat kargo, hepsijet, trendyol express, Drop-off, Delivery failed, Out for delivery, Signature required, Delivery rescheduled, Track your package, Proof of delivery, Pickup available",
+        "keywords1": "iade, iade talebi, iade onaylandı, iade alındı, iade kargo, geri gönderim, Return processed, Return initiated in transit",
+        "keywords2": "kurulum, montaj, servis randevusu, teknik servis, kurulum randevusu"
+      },
+      {
+        "keywords0": "uçuş, uçak, havayolu, thy, türk hava yolları, pegasus, ajet, sunexpress, tren, yht, tcdd, otobüs, sefer, feribot, Flight, Flight name, Train, Railway, airlines",
+        "keywords1": "biniş kartı, e-bilet, kapı değişikliği, kapı numarası, check-in, biniş başlıyor, rötar, gecikme, iptal edildi, bagaj, terminal, kalkış, varış, aktarma, koltuk, e-ticket, boarding pass, zone boarding, Gate changed, check in, layover, baggage claim"
+      },
+      {
+        "keywords0": "trafik, kaza, yol kapalı, sefer iptali, arıza, grev, güzergah değişikliği, yoğunluk, gecikme, metro arızası, metrobüs, marmaray, köprü kapalı, City bus strike, train derailment, service suspension, accident, traffic congestion, delay, detour, closure, service interruption"
+      },
+      {
+        "keywords0": "yurt dışı işlem, yurt dışı harcama, döviz işlemi, vergi, vergi ödemesi, gelir vergisi, mtv, e-devlet vergi, şifre sıfırlama, doğrulama kodu, tek kullanımlık şifre, güvenlik kodu, giriş denemesi, şüpheli işlem, yetkisiz erişim, hesap kilitlendi, güvenlik uyarısı, iki adımlı doğrulama, 3d secure, onay kodu, Foreign transaction, international payment, foreign exchange, Password reset, two-factor authentication, one-time password, login attempt, unauthorized access, security breach, account locked",
+        "keywords1": "yurt dışı onay, yurt dışı ödeme, kart harcaması, para transferi, havale, eft, fast transferi, kartınızdan, kredi kartı harcaması, provizyon, harcama bildirimi, Overseas approval, Overseas payment"
+      },
+      {
+        "keywords0": "randevu, etkinlik, toplantı, rezervasyon, hatırlatıcı, doğum günü, yıl dönümü, plan, program, davet, bilet, konser, sinema, doktor randevusu, hastane randevusu, mhrs, Schedule, event, meeting, reservation, anniversary, birthday, reminder, invitation, checklist"
+      },
+      {
+        "keywords0": "cevapsız arama, cevapsız çağrı, sizi aradı, sesli mesaj, geri ara, ulaşılamadı, Missed call, unanswered call, unreceived call, voicemail, callback"
+      }
+    ],
+    "exclude": [
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""}
+    ]
+  },
+  "english": {
+    "include": [
+      {
+        "keywords0": "talimat, talep, rapor, hazırlık, toplantı, toplantı daveti, toplantı başlıyor, son tarih, teslim tarihi, onay, inceleme, değerlendirme, acil, sunum, taslak, güncelleme, görev, proje, revize, dönüş bekleniyor, Instructions, requests, reports, preparation, schedules, drafting, deadlines, processing, issues, errors, approvals, meeting invitations, meeting starts, meeting attendance, reviews, submissions, final versions, progress updates, replies, meetings"
+      },
+      {
+        "keywords0": "sıra, sıranız, sıra numarası, muayene sırası, randevu sırası, çağrılıyor, içeri girin, giriş yapabilirsiniz, gişe, danışma, bekleme listesi, masa hazır, siparişiniz hazır, teslim almaya hazır, numaranız, Entry, waiting, my turn, medical appointment turn, calling, preparation, come in, counter, information desk, store, reservation number, order waiting, check-in"
+      },
+      {
+        "keywords0": "gecikmiş, vadesi geçmiş, son ödeme, son ödeme tarihi, ödenmemiş, yetersiz bakiye, otomatik ödeme başarısız, gecikme faizi, gecikme uyarısı, borç uyarısı, hat kesintisi, kısıtlama, ödeme hatırlatma, ödeme başarısız, fatura son ödeme, ekstre son ödeme, asgari ödeme, Overdue, payment deadline, insufficient automatic transfer, late payment, suspension, restriction, payment due date, final deadline, grace period expiration, payment demand, payment failure"
+      },
+      {
+        "keywords0": "dağıtıma çıktı, teslimat, teslim edildi, kargo, kargonuz, paketiniz, kurye, kapıya bırakıldı, teslim edilemedi, adresinizde bulunamadı, şubede bekliyor, teslimat ertelendi, kargo takip, gönderi, siparişiniz yola çıktı, teslimat kodu, kolay gelsin, yurtiçi kargo, aras kargo, mng kargo, ptt kargo, sürat kargo, hepsijet, trendyol express, Drop-off, Delivery failed, Out for delivery, Signature required, Delivery rescheduled, Track your package, Proof of delivery, Pickup available",
+        "keywords1": "iade, iade talebi, iade onaylandı, iade alındı, iade kargo, geri gönderim, Return processed, Return initiated in transit",
+        "keywords2": "kurulum, montaj, servis randevusu, teknik servis, kurulum randevusu"
+      },
+      {
+        "keywords0": "uçuş, uçak, havayolu, thy, türk hava yolları, pegasus, ajet, sunexpress, tren, yht, tcdd, otobüs, sefer, feribot, Flight, Flight name, Train, Railway, airlines",
+        "keywords1": "biniş kartı, e-bilet, kapı değişikliği, kapı numarası, check-in, biniş başlıyor, rötar, gecikme, iptal edildi, bagaj, terminal, kalkış, varış, aktarma, koltuk, e-ticket, boarding pass, zone boarding, Gate changed, check in, layover, baggage claim"
+      },
+      {
+        "keywords0": "trafik, kaza, yol kapalı, sefer iptali, arıza, grev, güzergah değişikliği, yoğunluk, gecikme, metro arızası, metrobüs, marmaray, köprü kapalı, City bus strike, train derailment, service suspension, accident, traffic congestion, delay, detour, closure, service interruption"
+      },
+      {
+        "keywords0": "yurt dışı işlem, yurt dışı harcama, döviz işlemi, vergi, vergi ödemesi, gelir vergisi, mtv, e-devlet vergi, şifre sıfırlama, doğrulama kodu, tek kullanımlık şifre, güvenlik kodu, giriş denemesi, şüpheli işlem, yetkisiz erişim, hesap kilitlendi, güvenlik uyarısı, iki adımlı doğrulama, 3d secure, onay kodu, Foreign transaction, international payment, foreign exchange, Password reset, two-factor authentication, one-time password, login attempt, unauthorized access, security breach, account locked",
+        "keywords1": "yurt dışı onay, yurt dışı ödeme, kart harcaması, para transferi, havale, eft, fast transferi, kartınızdan, kredi kartı harcaması, provizyon, harcama bildirimi, Overseas approval, Overseas payment"
+      },
+      {
+        "keywords0": "randevu, etkinlik, toplantı, rezervasyon, hatırlatıcı, doğum günü, yıl dönümü, plan, program, davet, bilet, konser, sinema, doktor randevusu, hastane randevusu, mhrs, Schedule, event, meeting, reservation, anniversary, birthday, reminder, invitation, checklist"
+      },
+      {
+        "keywords0": "cevapsız arama, cevapsız çağrı, sizi aradı, sesli mesaj, geri ara, ulaşılamadı, Missed call, unanswered call, unreceived call, voicemail, callback"
+      }
+    ],
+    "exclude": [
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""},
+      {"keywords0": ""}
+    ]
+  }
+}
